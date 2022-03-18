@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20MIS0339</title>
+
+    <head>
+        <title>FORM</title>
+    </head>
+    <link rel="stylesheet" href="q4.css">
+
+<body BGCOLOR="E5E5E5">
+    <div id="f">
+
+        <form>
+            <h2 align="center">
+                SIGN UP
+            </h2>
+
+            <table border="0" cellpadding="20" align="center">
+                <tr>
+                    <td>Name :</td>
+                    <td><input type="textbox" name="Enter full name" maxlength="20" required
+                            placeholder="Enter full name" /></td>
+                </tr>
+
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" required name="Enter email" placeholder="sample@VIT.com"></td>
+                </tr>
+
+                <tr>
+                    <td>Create Password</td>
+                    <td><label for="psw"></label>
+                        <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                        title="Must contain at least one number and one uppercase and lowercase letter, 
+                        and at least 8 or more characters" required></td>
+                </tr>
+
+                <tr>
+                    <td>Contact Number :</td>
+                    <td><label for="phone"></label>
+                        <input type="tel" name="telphone"  pattern="[0-9]{10}"  title="Ten digits code" required/></td>
+                </tr>
+
+                <tr>
+                    <td align="left">Date Of Birth
+                    <td>
+                        <input type="date" align="right">
+                    </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="centre"><br>
+                        <input type="submit">
+
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+    </div>
+</body>

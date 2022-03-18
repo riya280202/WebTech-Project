@@ -1,0 +1,23 @@
+#f{
+    border:2px solid black;
+    height:70%;
+    padding-bottom: 10px;
+    padding-top: 2px;
+    background-color:rgb(2, 14, 10);
+}
+div{
+    width:35%;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    margin-top: 6%;
+}
+
+form{
+    background-color: rgb(2, 14, 10);
+    color: aliceblue;
+}
+
