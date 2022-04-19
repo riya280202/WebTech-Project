@@ -218,5 +218,10 @@ button{
     border-radius: 7px;
     padding: 0 0.5rem;
     border: 2px solid black;
-    margin: 0.5rem 0.4rem 0.5rem 0;
+    margin: 0.5rem 0.4rem 0.5rem 0.7rem;
+}
+button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
 }
