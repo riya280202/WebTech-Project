@@ -53,11 +53,24 @@ a:link{
     text-decoration: none;
     color: #000;
 }
+button{
+    background-color: #F4BBBB;
+    border-radius: 7px;
+    padding: 0 1rem;
+    border: 2px solid black;
+    margin: 0.5rem 0.4rem 0.5rem 0.7rem;
+}
+button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
 
 /* landing */
 #home .banner-image {
     background-image: url('images/landing.png');
     background-size: cover;
+    background-attachment: fixed;
 }
 .banner-video {
     background-image: url('images/landing.png');
@@ -151,16 +164,6 @@ a:link{
     margin-left: 1.3rem;
     margin-top: 2.3rem;
 }
-.course img, .course .card{
-    border-radius: 15px;
-}
-.course .row{
-    margin-top: 3rem;
-}
-.card{
-    margin: 1rem 0rem;
-    box-shadow: 0 -2px 6px rgba(187, 168, 168, 0.815);
-}
 #our_work .row{
     margin-top: 2rem;
 }
@@ -199,29 +202,4 @@ a:link{
     color: #fff;
 }
 
-/* awards */
-#awards .landing_heading{
-    padding-top: 1.7rem;
-}
-
-.carousel-item img{
-    height: 27rem;
-}
-.carousel-caption h5{
-    font-size: 3rem;
-    font-weight: 700;
-    color: #000;
-    text-decoration: underline;
-}
-button{
-    background-color: #F4BBBB;
-    border-radius: 7px;
-    padding: 0 0.5rem;
-    border: 2px solid black;
-    margin: 0.5rem 0.4rem 0.5rem 0.7rem;
-}
-button a{
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
-}
+/* footer */
