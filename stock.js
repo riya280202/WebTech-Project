@@ -3,8 +3,6 @@ const username = document.getElementById('username.value');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 const password2 = document.getElementById('password2');
-const phone_number = document.getElementById('phone_number');
-const DOB = document.getElementById('DOB');
 
 
 

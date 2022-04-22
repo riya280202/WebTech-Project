@@ -1,3 +1,9 @@
+<?php 
+
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -60,7 +66,7 @@
               <a class="nav-link text-dark" href="#webinars">Webinars</a>
             </li>
             <li class="nav-item">
-              <button><a href="q4.html"> Sign up</a></button>
+              <button><a href="register.php"> Sign up</a></button>
             </li>
           </ul>
         </div>
@@ -72,7 +78,7 @@
       <div
         class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
       >
-        <div class="content">
+        <div class="contentt">
           <div class="content-part" data-aos="fade-up" data-aos-duration="1000">
             DILIGENCE <br />
             EQUITY
@@ -158,6 +164,110 @@
         </div>
       </div>
     </div>
+
+    <!-- awards section -->
+    <div id="awards">
+    <div id="testimonialsSection">
+      <div class="landing_heading" data-aos="zoom-in-up"     data-aos-duration="1000"> Awards</div>
+      <div class="t_cards">
+      <div class="t_card t_card1" data-aos="flip-up" data-aos-duration="1000">
+          <div class="t_image"> <img src="images/awards_1.jpg" alt="" class="img-fluid">
+          <div class="project_overlay project_overlay--blur">
+                      <p class="project_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat dignissimos ratione illo fugit, ut error possimus, aliquam, laudantium numquam molestias ipsa molestiae at est nesciunt?
+                      </p>
+                  </div>
+          </div>
+          <div class="tcard_desc">LIZZY, Educator</div>
+      </div>
+      <div class="t_card t_card2" data-aos="flip-up" data-aos-duration="1000">
+          <div class="t_image"> <img src="images/awards_2.jpg" alt="" class="img-fluid">
+          <div class="project_overlay project_overlay--blur">
+                      <p class="project_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo aliquam non sapiente quas consequatur, dolorem rerum tempore dignissimos repudiandae amet quod accusantium harum fugiat cumque!
+                      </p>
+                  </div>
+          </div>
+          <div class="tcard_desc">tessa, model & yoga teacher</div>
+      </div>
+      <div class="t_card t_card3" data-aos="flip-up" data-aos-duration="1000">
+          <div class="t_image"> <img src="images/awards_3.jpg" alt="" class="img-fluid">
+          <div class="project_overlay project_overlay--blur">
+                      <p class="project_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At rem ratione doloremque eos odit ea autem maiores vitae voluptatem quod alias itaque corporis, aperiam esse!
+                      </p>
+                  </div>
+          </div>
+          <div class="tcard_desc">annie, marketing expert</div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- webinars -->
+    <div id="webinars">
+    <div class="landing_heading" data-aos="zoom-in-up" style="z-index: 1; background-color: #000;">Upcoming Webinars</div>
+    <div class="timeline" id="timeline">
+      
+      <div class="container  containerC left" data-aos="fade-left"  data-aos-duration="500">
+        <div class="content">
+          <h2>24th April 2022, 04:00pm</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container containerC right" data-aos="fade-right" data-aos-duration="1000">
+        <div class="content">
+          <h2>26th April 2022, 06:00pm</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container containerC left" data-aos="fade-left" data-aos-duration="1000">
+        <div class="content">
+          <h2>26th April 2022, 07:00pm</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container containerC right" data-aos="fade-right" data-aos-duration="1000">
+        <div class="content">
+          <h2>29th April 2022, 01:00pm</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container containerC left" data-aos="fade-left" data-aos-duration="1000">
+        <div class="content">
+          <h2>29th April 2022, 07:00pm</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container containerC right" data-aos="fade-right" data-aos-duration="1000">
+        <div class="content">
+          <h2>30th April 2022, 05:00pm</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+        <!-- footer section -->
+        <div class="section" id="footerSection">
+          <div class="container-fluid" style="margin: 0; padding: 0;">
+            <div class="row footerContent" style="margin: 0; padding: 0; height: 10rem; justify-content:space-around; font-size:0.85rem; align-items:center;">
+              <div class="col-md-3" >
+                Let’s connect: <br>
+                <a href="" target="_blank">
+                <i class="fa fa-instagram" style="color:#93845B; font-size:1.2rem;"></i>
+                </a>
+                <a href="">
+                <i class="fa fa-envelope" style="color: #93845B; font-size:1.2rem; margin-left: 1.25rem;"></i>
+              </a>
+              </div>
+              <div class="col-md-4" style="text-align:right;">
+                © 2022 Bull Horn <br>
+                All rights reserved <br>
+                Terms & conditions | Our privacy policy
+              </div>
+              <!-- <a href="" style="bottom: 0; right: 0;">
+              <i class="fa fa-arrow-up" style="color: #93845B; "></i>
+              </a> -->
+            </div>
+          </div>
+        </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
